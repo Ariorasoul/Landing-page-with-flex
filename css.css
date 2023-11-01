@@ -180,8 +180,18 @@ button {
   display: flex;
   flex-direction: column;
   flex: 1;
-  align-items: center;
+}
+
+.sign-button  {
   justify-content: center;
+  align-items: center;
+
+
+}
+
+.buttomsing {
+  border: 1px solid white;
+  padding: 8px 32px;
 }
 
 
