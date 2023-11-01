@@ -1,3 +1,6 @@
+
+/* Universal CSS*/
+
 body {
     margin: 0px;
     padding: 0px;
@@ -17,6 +20,36 @@ p {
   margin: 0;
 }
 
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  gap: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+
+button {
+  background-color: #3882F6;
+  padding: 2px 16px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+
+/* Head/Setion 1 CSS*/
+
 .head {
   background-color: #1F2937;
   display: flex;
@@ -25,7 +58,6 @@ p {
   padding: 0 15%;
 
 }
-
 
 .link-logo, .main {
   display: flex;
@@ -38,28 +70,9 @@ p {
   height: auto;
 }
 
-ul {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  list-style: none;
-  color: white;
-  text-decoration: none;
-  gap: 24px;
-}
-
 .main {
   justify-content: center;
   align-items: center;
-}
-
-
-h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: white;
-  padding: 0;
-  margin: 0;
 }
 
 .text-info {
@@ -68,14 +81,8 @@ h1 {
 }
 
 .blockimg {
-  width: 600px;
+  width: 500px;
   height: auto;
 }
 
-button {
-  background-color: #3882F6;
-  padding: 2px 16px;
-  color: white;
-  border-radius: 5px;
-  border: none;
-}
+/* Block info/Setion 2 CSS*/
