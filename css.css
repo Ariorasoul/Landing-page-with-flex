@@ -38,6 +38,12 @@ h1 {
   margin: 0;
 }
 
+h2, h3 {
+  padding: 0;
+  margin: 0;
+}
+
+
 button {
   background-color: #3882F6;
   padding: 2px 16px;
@@ -149,4 +155,57 @@ button {
   display: flex;
   justify-content: flex-end;
   
+}
+
+
+/* Sing in/Setion 4 CSS*/
+
+.sign-up {
+  padding: 80px 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.blue-block {
+  background-color: #3882F6;
+  display: flex;
+  flex: 1;
+  padding: 32px;
+  border-radius: 5px;
+  color: white;
+
+}
+
+.text-sign, .sign-button {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sign-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.sign-desc {
+  font-size: 18px;
+
+}
+
+
+/* Footer CSS*/
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  color: white;
+}
+
+.footer-text {
+  font-size: 18px;
 }
