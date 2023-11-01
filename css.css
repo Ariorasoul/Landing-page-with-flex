@@ -38,7 +38,6 @@ h1 {
   margin: 0;
 }
 
-
 button {
   background-color: #3882F6;
   padding: 2px 16px;
@@ -46,7 +45,6 @@ button {
   border-radius: 5px;
   border: none;
 }
-
 
 /* Head/Setion 1 CSS*/
 
@@ -86,3 +84,46 @@ button {
 }
 
 /* Block info/Setion 2 CSS*/
+
+
+.four-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+
+}
+
+.info-blocks {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  gap: 32px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.block-img {
+  border: 2px solid #3882F6;
+  border-radius: 5px;
+
+}
+
+.info-img {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.text-desc {
+  text-align: center;
+}
+
+/* Quote/Setion 3 CSS*/
