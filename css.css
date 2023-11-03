@@ -147,6 +147,8 @@ flex-basis: 0%;
 .blockimg {
   width: 100%;
   height: auto;
+  display: flex;
+  flex: 1;
 }
 
 /* Block info/Setion 2 CSS*/
