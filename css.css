@@ -54,7 +54,7 @@ blockquote{
 /* Head/Setion 1 CSS*/
 
 .head {
-  background-color: #1F2937;
+  background-color: #314A59;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -66,6 +66,7 @@ blockquote{
   display: flex;
   flex: 1;
   justify-content: space-between;
+  border-bottom: 1px solid #56778C;
 }
 
 .link-logo {
@@ -117,7 +118,7 @@ flex-basis: 0%;
   justify-content: center;
   align-items: center;
   flex-grow: 0;
-  background-color: #3882F6;
+  background-color: #56778C;
   padding: 8px 32px;
   color: white;
   border-radius: 5px;
@@ -191,16 +192,35 @@ flex-basis: 0%;
 
 
 .block-img {
-  border: 4px solid #3882F6;
+  border: 4px solid #56778C;
   border-radius: 20px;
   display: flex;
   padding: 5%;
 
 }
 
+
+.angels {
+  background-color: #005221;
+}
+
+.marines {
+  background-color: 	#2E57ED;
+}
+
+.templar {
+  background-color: #353535;
+}
+
+.wolves {
+  background-color: #dae6ef;
+}
+
+
+
 .info-img {
   width: 100%;
-  height: 100%;
+  height: auto;
   display: flex;
  
 }
@@ -215,7 +235,7 @@ flex-basis: 0%;
 /* Quote/Setion 3 CSS*/
 
 .big-text {
-  background-color: #E5E7EB;
+  background-color: #56778C;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -224,7 +244,7 @@ flex-basis: 0%;
 }
 
 .quote {
-  font-size: 36px;
+  font-size: 32px;
   font-style: italic;
   font-weight: 100;
   color: #1F2937;
@@ -233,6 +253,8 @@ flex-basis: 0%;
   justify-content: center;
   align-items: center;
   padding: 0 11%;
+  color: white;
+  padding-bottom: 16px;
 
 }
 
@@ -245,6 +267,7 @@ flex-basis: 0%;
   align-items: center;
   flex: 1;
   padding: 0 13%;
+  color: #314A59;
   
 }
 
@@ -260,7 +283,7 @@ flex-basis: 0%;
 }
 
 .blue-block {
-  background-color: #3882F6;
+  background-color: #D93654;
   display: flex;
   flex: 1;
   padding: 5% 15%;
@@ -290,7 +313,7 @@ flex-basis: 0%;
 
 .buttomsing {
   border: 2px solid white;
-  background-color: #3882F6;
+  background-color: #D93654;
   padding: 8px 32px;
   color: white;
   border-radius: 5px;
@@ -315,7 +338,7 @@ flex-basis: 0%;
 /* Footer CSS*/
 
 .footer {
-  background-color: #1F2937;
+  background-color: #314A59;
   display: flex;
   justify-content: center;
   align-items: center;
