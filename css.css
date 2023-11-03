@@ -69,20 +69,50 @@ button {
   justify-content: space-between;
 }
 
-.logoimg {
-  width: 150px;
-  height: auto;
+.link-logo {
+  align-items: center;
+  flex-grow: 0;
 }
 
+
 .main {
-  justify-content: center;
-  align-items: center;
+  padding: 50px 0px;
+}
+
+.info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+flex: 1;
+
+}
+
+
+.info-title, .text-info, .info-button {
+display: flex;
+flex: 1;
+
 }
 
 .text-info {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
 }
+
+.img-block {
+  display: flex;
+  justify-content: center
+
+}
+
+
+.logoimg {
+  width: 100px;
+  height: auto;
+}
+
+
+
 
 .blockimg {
   width: 500px;
@@ -96,7 +126,8 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 80px;
+  padding: 80px 15%;
+  flex: 1;
 
 }
 
@@ -140,6 +171,7 @@ button {
   flex-direction: column;
   align-items: flex-end;
   padding: 80px 15%;
+  flex: 1;
 }
 
 .quote {
@@ -164,6 +196,7 @@ button {
   padding: 80px 15%;
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .blue-block {
@@ -214,6 +247,7 @@ button {
   justify-content: center;
   padding: 35px;
   color: white;
+  flex-grow: 0;
 }
 
 .footer-text {
